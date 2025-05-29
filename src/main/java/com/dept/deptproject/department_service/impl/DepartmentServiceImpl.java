@@ -32,7 +32,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     		
           Department savedDepartment = departmentRepository.save(department);
 
-    	System.out.println("Hello world-------------");
+    	System.out.println("Department services");
         // convert department dto to department jpa entity
         //Department department = DepartmentMapper.mapToDepartment(departmentDto);
         //Department savedDepartment = departmentRepository.save(department);
